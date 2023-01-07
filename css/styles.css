@@ -7,6 +7,7 @@
   --deep-green: #004047;
   --state-green: #012f34;
   --dark-green: #002529;
+  scroll-behavior: smooth;
 }
 
 @font-face {
