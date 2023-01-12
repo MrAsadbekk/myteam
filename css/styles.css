@@ -100,6 +100,17 @@ a {
   background-color: var(--white);
   color: var(--midnight-grren);
 }
+.header-btn {
+  display: none;
+  width: 25px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/header-menu.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin-left: auto;
+}
 .intro {
   /* padding-bottom: 255px; */
   background-image: url(../img/bgi.png);
@@ -416,6 +427,8 @@ a {
     background-image: url(../img/768.intro.bg.png);
     background-position: center bottom;
     background-repeat: no-repeat;
+  }
+  .intro-container {
     padding-bottom: 256px;
   }
   .intro__title {
@@ -583,5 +596,217 @@ a {
   .box-three-text {
     width: 255px;
     margin: 0;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  .container{
+    max-width: 560px;
+    padding: 0 20px;
+  }
+  .intro-container{
+    padding-bottom: 200px;
+  }
+  .works-container{
+    padding-bottom: 100px;
+  }
+  .works-title {
+    width: 300px;
+  }
+  .works-list {
+    margin-left: 250px;
+  }
+  .work-text {
+    width: 327px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .container {
+    max-width: 550px;
+    padding: 0 25px;
+  }
+  .logo-link {
+    width: 160px;
+    height: 40px;
+  }
+  .header-list {
+    display: none;
+  }
+  .header__link {
+    display: none;
+  }
+  .header-btn {
+    display: block;
+  }
+  .intro-container {
+    padding-bottom: 200px;
+  }
+  .works-title {
+    width: 300px;
+  }
+  .works-list {
+    margin-left: 240px;
+  }
+  .works-text {
+    width: 327px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+  .intro__text {
+    width: 350px;
+  }
+@media only screen and (max-width: 426px) {
+  .container {
+    max-width: 426px;
+  }
+  .works-list {
+    margin: 0;
+    margin-left: auto;
+  }
+} */
+@media only screen and (max-width: 376px) {
+  .container {
+    max-width: 376px;
+    padding: 0 24px;
+  }
+  .header {
+    margin-top: 48px;
+    margin-bottom: 80px;
+  }
+  .logo-link {
+    width: 128px;
+    height: 32px;
+  }
+  .header-list {
+    display: none;
+  }
+  .header__link {
+    display: none;
+  }
+  .header-btn {
+    display: block;
+  }
+  .intro-container {
+    padding-bottom: 197px;
+  }
+  .intro__title {
+    width: 240px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+  }
+  .intro__title span {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .intro__text {
+    width: 327px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .works-container {
+    padding-bottom: 64px;
+  }
+  .work {
+    width: 240px;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+  }
+  .works-title {
+    width: 240px;
+    margin-bottom: 144px;
+  }
+  .works-list {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 136px;
+  }
+  .works-item {
+    width: 327px;
+  }
+  .work-item-one::before {
+    top: -65px;
+    left: 130px;
+  }
+  .work-item-two::before {
+    top: -65px;
+    left: 130px;
+  }
+  .work-item-three::before {
+    top: -65px;
+    left: 130px;
+  }
+  .work-title {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .work-text {
+    width: 327px;
+    text-align: center;
+  }
+  .user-container {
+    padding-top: 140px;
+    padding-bottom: 165px;
+  }
+  .user-title {
+    width: 327px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .user-item {
+    width: 327px;
+  }
+  .user-text {
+    width: 327px;
+  }
+  .started-container {
+    padding: 83px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .started-title {
+    width: 327px;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+  }
+  .started-link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-logo {
+    margin-bottom: 24px;
+  }
+  .box-one-list {
+    margin-bottom: 24px;
+  }
+  .footer-box-two {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .box-two-text {
+    text-align: center;
+  }
+  .footer-box-three {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
   }
 }
