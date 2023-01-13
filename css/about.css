@@ -316,6 +316,7 @@ a {
   background-color: var(--state-green);
   color: var(--white);
 }
+
 .footer {
   background-color: var(--dark-green);
 }
@@ -324,6 +325,11 @@ a {
   padding-bottom: 48px;
   display: flex;
   align-items: center;
+}
+.footer-box {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 .footer-logo {
   display: inline-block;
@@ -374,7 +380,7 @@ a {
   margin-left: 110px;
   width: 255px;
 }
-.box-three-list {
+.box-two-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -392,4 +398,200 @@ a {
   color: var(--white);
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .header {
+    margin-top: 50px;
+  }
+  .user-list {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .intro-container {
+    padding-bottom: 100px;
+  }
+  .intro-title {
+    width: 250px;
+  }
+  .intro-text {
+    width: 600px;
+  }
+  .user-container {
+    padding-top: 100px;
+    padding-bottom: 160px;
+  }
+  .user-item {
+    margin-left: 60px;
+  }
+  .works-container {
+    padding-top: 120px;
+    padding-bottom: 130px;
+  }
+  .works-list {
+    padding: 0;
+  }
+  .started-container {
+    padding-top: 65px;
+    padding-bottom: 76px;
+  }
+  .started-title {
+    margin-left: 90px;
+  }
+  .footer-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer-box-one {
+    margin-left: 50px;
+  }
+  .box-two-list {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-box-two {
+    width: 340px;
+  }
+  .footer-box-three {
+    margin-left: 50px;
+  }
+  .box-three-list {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+  .header {
+    margin-top: 64px;
+    margin-bottom: 112px;
+  }
+  .header-logo-img {
+    width: 128px;
+    height: 32px;
+  }
+  .header-list {
+    margin-left: 48px;
+  }
+  .intro-container {
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 112px;
+  }
+  .intro-title {
+    font-size: 64px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .intro-text {
+    width: 457px;
+    text-align: center;
+    padding: 0;
+  }
+  .intro-text::before {
+    display: none;
+  }
+  .user-container {
+    padding-top: 100px;
+    padding-bottom: 63px;
+  }
+  .user-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .user-list {
+    gap: 11px;
+  }
+  .user-item {
+    width: 281px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
+  }
+  .works-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../img/abaut.768.w.bgi.svg);
+  }
+  .works-title {
+    margin-bottom: 50px;
+  }
+  .works-list {
+    gap: 49px;
+  }
+  .started-container {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    align-items: center;
+  }
+  .started-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .footer {
+    padding: 56px 0;
+  }
+  .footer-container {
+    display: block;
+  }
+  .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+  }
+  .footer-box-one {
+    margin: 0;
+  }
+  .footer-box-three {
+    display: flex;
+  }
+  .box-two-list {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-logo {
+    margin-bottom: 54px;
+  }
+  .footer-logo-img {
+    width: 96px;
+    height: 24px;
+  }
+  .box-one-link {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .footer-box-two {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    display: flex;
+  }
+  .box-two-text {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+  }
+  .box-one-list {
+    gap: 24px;
+  }
+  .footer-box-three {
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .box-three-text {
+    width: 255px;
+    margin: 0;
+  }
 }
