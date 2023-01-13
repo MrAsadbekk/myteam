@@ -678,6 +678,9 @@ a {
     max-width: 560px;
     padding: 0 20px;
   }
+  .header {
+    margin-top: 50px;
+  }
   .intro-container {
     padding-bottom: 200px;
   }
@@ -688,10 +691,36 @@ a {
     width: 300px;
   }
   .works-list {
-    margin-left: 250px;
+    margin-left: 170px;
+  }
+  .works-item {
+    width: 378px;
   }
   .work-text {
-    width: 327px;
+    width: 378px;
+    margin: 0;
+  }
+  .user-container {
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+  .user-title {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .user-list {
+    gap: 50px;
+  }
+  .user-item {
+    width: 550px;
+  }
+  .user-text {
+    width: 550px;
+  }
+  .footer-box-two {
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -717,6 +746,9 @@ a {
   }
   .intro-container {
     padding-bottom: 200px;
+  }
+  .works-container {
+    padding-bottom: 40px;
   }
   .works-title {
     width: 300px;
