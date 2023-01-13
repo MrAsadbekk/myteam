@@ -841,6 +841,7 @@ a {
     width: 327px;
   }
   .started-container {
+    margin: 0;
     padding: 83px 0;
     display: flex;
     align-items: center;
@@ -868,6 +869,9 @@ a {
   }
   .box-one-list {
     margin-bottom: 24px;
+  }
+  .footer-box-one {
+    margin: 0;
   }
   .footer-box-two {
     margin-left: 0;
