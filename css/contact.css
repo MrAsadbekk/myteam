@@ -100,6 +100,17 @@ a {
   background-color: var(--white);
   color: var(--midnight-grren);
 }
+.header-btn {
+  display: none;
+  width: 25px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/header-menu.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin-left: auto;
+}
 .intro-container {
   display: flex;
   margin-bottom: 114px;
@@ -207,6 +218,11 @@ a {
   display: flex;
   align-items: center;
 }
+.footer-box {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 .footer-logo {
   display: inline-block;
   margin: 0;
@@ -256,7 +272,7 @@ a {
   margin-left: 110px;
   width: 255px;
 }
-.box-three-list {
+.box-two-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -274,4 +290,221 @@ a {
   color: var(--white);
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .header {
+    margin-top: 50px;
+    margin-bottom: 110px;
+  }
+  .intro-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro_title {
+    text-align: center;
+  }
+  .intro_text {
+    text-align: center;
+  }
+  .intro-list {
+    margin-left: 130px;
+    margin-bottom: 120px;
+  }
+  .form_btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer-box-one {
+    margin-left: 50px;
+  }
+  .box-two-list {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-box-two {
+    width: 340px;
+  }
+  .footer-box-three {
+    margin-left: 50px;
+  }
+  .box-three-list {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .footer {
+    padding: 56px 0;
+  }
+  .footer-container {
+    display: block;
+  }
+  .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+  }
+  .footer-box-one {
+    margin: 0;
+  }
+  .footer-box-three {
+    display: flex;
+  }
+  .box-two-list {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-logo {
+    margin-bottom: 54px;
+  }
+  .footer-logo-img {
+    width: 96px;
+    height: 24px;
+  }
+  .box-one-link {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .footer-box-two {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    display: flex;
+  }
+  .box-two-text {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+  }
+  .box-one-list {
+    gap: 24px;
+  }
+  .footer-box-three {
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .box-three-text {
+    width: 255px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .container {
+    max-width: 425px;
+    padding: 0 24px;
+  }
+  .header {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+  .header-logo-img {
+    width: 128px;
+    height: 32px;
+  }
+  .header-list {
+    display: none;
+  }
+  .header__link {
+    display: none;
+  }
+  .header-btn {
+    display: block;
+  }
+  .intro-container {
+    margin: 0;
+    padding-bottom: 88px;
+    background-image: url(../img/425.contact.bgi.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .intro_title {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .intro-text {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .intro-list {
+    width: 232px;
+    margin: 0;
+    margin-left: 200px;
+    margin-bottom: 64px;
+  }
+  .intro_item {
+    width: 232px;
+  }
+  .intro-form {
+    width: 325px;
+  }
+  .form_user {
+    width: 325px;
+  }
+  .form_textarea {
+    max-width: 325px;
+    min-width: 325px;
+  }
+  .form_btn {
+    margin: 0;
+  }
+  .footer-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-box-one {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .footer-logo {
+    margin-bottom: 50px;
+  }
+  .footer-logo-img {
+    width: 200px;
+    height: 50px;
+  }
+  .box-one-list {
+    justify-content: space-between;
+  }
+  .box-one-link {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .footer-box-two {
+    margin: 0;
+  }
+  .box-two-text {
+    text-align: center;
+  }
+  .footer-box-three {
+    align-items: center;
+    flex-direction: column;
+  }
+  .box-two-list {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .container {
+    max-width: 376px;
+  }
+  .intro-list {
+    margin-left: 170px;
+  }
 }
