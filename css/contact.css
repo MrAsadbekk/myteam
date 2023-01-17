@@ -144,7 +144,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 52px;
-  margin-left: 90px;
+  padding-left: 90px;
 }
 .intro_item {
   position: relative;
@@ -311,8 +311,8 @@ a {
     text-align: center;
   }
   .intro-list {
-    margin-left: 130px;
-    margin-bottom: 120px;
+    padding-left: 130px;
+    padding-bottom: 120px;
   }
   .form_btn {
     margin-left: auto;
@@ -425,6 +425,9 @@ a {
   .header-btn {
     display: block;
   }
+  .intro-box {
+    width: 375px;
+  }
   .intro-container {
     margin: 0;
     padding-bottom: 88px;
@@ -442,10 +445,11 @@ a {
     line-height: 48px;
   }
   .intro-list {
-    width: 232px;
     margin: 0;
-    margin-left: 200px;
-    margin-bottom: 64px;
+    width: 232px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 64px;
   }
   .intro_item {
     width: 232px;
@@ -503,8 +507,37 @@ a {
 @media only screen and (max-width: 376px) {
   .container {
     max-width: 376px;
+    padding: 0 25px;
+  }
+  .intro-container {
+    padding-bottom: 88px;
+  }
+  .intro-box {
+    margin: 0;
+    width: 325px;
+  }
+  .intro_text {
+    width: 200px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
   }
   .intro-list {
-    margin-left: 170px;
+    padding: 0;
+    margin: 0;
+    margin-left: 94px;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
+  .intro-form {
+    width: 325px;
+  }
+  .form_user {
+    width: 309px;
+  }
+  .form_textarea {
+    max-width: 309px;
+    min-width: 309px;
   }
 }
