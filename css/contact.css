@@ -105,7 +105,7 @@ a {
   background-color: var(--white);
   color: var(--midnight-grren);
 }
-.header-btn {
+.header__btn {
   display: none;
   width: 25px;
   height: 20px;
