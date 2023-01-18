@@ -71,7 +71,7 @@ a {
 .logo-link:hover {
   opacity: 0.8;
 }
-.header-nav {
+.menu {
   width: 100%;
   display: flex;
   justify-content: space-between;
