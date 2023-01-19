@@ -549,15 +549,6 @@ a {
     width: 128px;
     height: 32px;
   }
-  .header-list {
-    display: none;
-  }
-  .header__link {
-    display: none;
-  }
-  .header-btn {
-    display: block;
-  }
   .intro-box {
     width: 375px;
   }
