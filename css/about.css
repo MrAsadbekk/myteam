@@ -889,15 +889,6 @@ a {
     width: 128px;
     height: 32px;
   }
-  .header-list {
-    display: none;
-  }
-  .header__link {
-    display: none;
-  }
-  .header-btn {
-    display: block;
-  }
   .intro-container {
     padding-bottom: 108px;
     background-image: url(../img/425.intro.bgi.svg);
@@ -1010,15 +1001,6 @@ a {
   .header-logo-img {
     width: 128px;
     height: 32px;
-  }
-  .header-list {
-    display: none;
-  }
-  .header__link {
-    display: none;
-  }
-  .header-btn {
-    display: block;
   }
   .intro-container {
     padding-bottom: 108px;
