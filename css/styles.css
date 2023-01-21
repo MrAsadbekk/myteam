@@ -272,6 +272,18 @@ a {
 }
 .user-item {
   width: 350px;
+  position: relative;
+}
+.user-item::after {
+  display: inline-block;
+  content: '"';
+  position: absolute;
+  top: -50px;
+  left: 135px;
+  font-family: "serif";
+  font-size: 130px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.2);
 }
 .user-text {
   margin: 0;
